@@ -1,0 +1,33 @@
+{
+  "name": "clothing-store",
+  "version": "1.0.0",
+  "description": "Online clothing store using MERN stack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --inspect ./index.js --exec babel-node --presets es2015,stage-2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANDRESROMEROH/Clothing-Store.git"
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "Andres Romero / Costa Rica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ANDRESROMEROH/Clothing-Store/issues"
+  },
+  "homepage": "https://github.com/ANDRESROMEROH/Clothing-Store#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
