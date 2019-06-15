@@ -1,4 +1,5 @@
 import express from 'express';
+import UserModel from './models/User';
 
 const app = express();
 const port = 8080;

@@ -4,7 +4,8 @@
   "description": "Online clothing store using MERN stack.",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --inspect ./index.js --exec babel-node --presets es2015,stage-2"
+    "start-dev": "nodemon --inspect ./index.js --exec babel-node --presets es2015,stage-2",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
