@@ -35,7 +35,7 @@ export default class User {
 
 
     getData = () => ({
-        id = this._id,
+        id: this._id,
         username: this._username,
         email: this._email,
         role: this._role

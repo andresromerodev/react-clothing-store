@@ -4,8 +4,8 @@
   "description": "Online clothing store using MERN stack.",
   "main": "index.js",
   "scripts": {
-    "start-dev": "nodemon --inspect ./index.js --exec babel-node --presets es2015,stage-2",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --inspect ./index.js --exec babel-node",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,14 +21,21 @@
   },
   "homepage": "https://github.com/ANDRESROMEROH/Clothing-Store#readme",
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
     "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
     "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.13.0",
-    "nodemon": "^1.19.1"
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "regenerator-runtime": "^0.13.2"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1"
   }
 }

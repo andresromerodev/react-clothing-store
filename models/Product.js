@@ -37,7 +37,7 @@ export default class Product {
      * @return {{id: string, name: string, price: number, images: Array.string<>}}
      */
     getData = () => ({
-        id = this._id,
+        id: this._id,
         name: this._name,
         price: this._price,
         images: this._images
