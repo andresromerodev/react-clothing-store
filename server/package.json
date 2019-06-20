@@ -21,18 +21,18 @@
   },
   "homepage": "https://github.com/ANDRESROMEROH/Clothing-Store#readme",
   "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^10.0.1",
+    "babel-eslint": "^10.0.2",
     "babel-jest": "^24.8.0",
     "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.13.0",
     "jest": "^24.8.0",
-    "nodemon": "^1.19.1",
-    "regenerator-runtime": "^0.13.2"
+    "nodemon": "^1.19.1"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
