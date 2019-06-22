@@ -54,7 +54,12 @@ app.put('/v1/users/:id', (req, res) => {
 });
 
 app.get('/v1/products', async (req, res) => {
-    const users = await ProductModel.find() || [];
+    const { categories } = req.query;
+    const categoryList = categories ? categories.split(',') : [];
+    const users = await ProductModel.find(
+        categoryList.length > 0 ? 
+        { categories: { $in: categoryList } } : undefined
+    ) || [];
     res.send(users);
 });
 
@@ -73,23 +78,39 @@ app.get('/v1/products/:id', async (req, res) => {
     }
 });
 
-app.post('/v1/users', (req, res) => {
-    const username = req.body.username;
-    const email = req.body.email;
-    const role = req.body.role;
-    console.log('post: data => ', username, email, role);    
+app.post('/v1/products', async (req, res) => {
+    const product = await ProductModel.create(req.body);
 
-    res.status(200).end();
+    if (product) {
+        res.status(200).end();
+    } else {
+        res.status(500).end();
+    }
 });
 
-app.put('/v1/users/:id', (req, res) => {
+app.put('/v1/products/:id', (req, res) => {
     const id = req.params.id;
-    const username = req.body.username;
-    const email =  req.body.email;
-    const role = req.body.email;
-    console.log('put: data => ', id, username, email, role);
-    
-    res.send(200).end();
+    const product = req.body;
+
+    ProductModel.findByIdAndUpdate(id, product, (err) => {
+        if (err) {
+            res.status(500).end();
+        } else {
+            res.status(200).end();
+        }
+    });
+});
+
+app.delete('/v1/products/:id', (req, res) => {
+    const id = req.params.id;
+
+    ProductModel.findByIdAndDelete(id, (err) => {
+        if (err) {
+            res.status(500).end();
+        } else {
+            res.status(200).end();
+        }
+    });
 });
 
 app.listen(port, () => {
