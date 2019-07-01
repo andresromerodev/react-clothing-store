@@ -1,18 +1,36 @@
 import React, { Component } from 'react'
-import logo from './logo.svg';
-import DynamicCounter from "./components/DynamicCounter";
-import './App.css';
+import './App.css'
+import TextInput from './components/inputs/TextInput';
 
 class App extends Component {
+
+  state = {
+    firstName: '',
+    lastName: ''
+  };
+
+  handleChange = (e) => {
+    this.setState({
+      [e.target.name]: e.target.value
+    });
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <DynamicCounter label="Apples" max={5}/>
-          <DynamicCounter label="Oranges" max={10}/>
-          <DynamicCounter label="Lemons" max={15}/>
-        </header>
+
+        <TextInput 
+          value={this.state.firstName}
+          name="firstName"
+          onChange={this.handleChange}
+        />
+        <TextInput 
+          value={this.state.lastName}
+          name="lastName"
+          onChange={this.handleChange}
+        />
+
+        {/* <ProductList products={products}/> */}
       </div>
     )
   }
