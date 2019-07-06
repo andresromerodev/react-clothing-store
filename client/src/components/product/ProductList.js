@@ -21,7 +21,6 @@ export default class ProductList extends Component {
               name={product.getName()}
               images={product.getImages()}
               price={product.getFormattedPrice()}
-              isFeatured={product.isFeatured()}
             />
           </Link>
         )}

@@ -14,10 +14,10 @@ export default class ProductView extends Component {
         <h2>{this.props.product.getName()}</h2>
         <p>{this.props.product.getFormattedPrice()}</p>
         <PrimaryButton onClick={this.addToCart}>
-          🛒 Add to Cart 
+          🛒 Add to Cart
         </PrimaryButton>
         {this.props.product.getImages().map(src =>
-          <img src={src} key={src} alt=""/>
+          <img src={src} key={src} />
         )}
       </div>
     )

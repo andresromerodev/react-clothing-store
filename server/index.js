@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import db from './db';
 import express from 'express';
+import cors from 'cors';
 import bodyParser from 'body-parser';
 import logger from './middleware/logger';
 import withAuthentication from './middleware/withAuthentication';
@@ -15,6 +16,7 @@ const port = process.env.APP_PORT;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false})); 
 app.use(withAuthentication);
+app.use(cors());
 app.use(logger);
 
 // Routes:
