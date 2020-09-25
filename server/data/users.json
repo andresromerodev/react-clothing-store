@@ -1,0 +1,191 @@
+[
+    {
+        "_id": {
+            "$oid": "5d0aef1da15c4d19fc6d9074"
+        },
+        "email": "jondoe@gmail.com",
+        "username": "jondoe1234",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0aef3b230bf20780496d44"
+        },
+        "email": "jondoe@gmail.com",
+        "username": "jondoe1234",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0af134cf6cd61f1cda0af5"
+        },
+        "email": "janedoe@gmail.com",
+        "username": "janedoe",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0af16ca3dc8c3d188d0fb5"
+        },
+        "email": "janedoe@gmail.com",
+        "username": "janedoe",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd08"
+        },
+        "username": "admin",
+        "email": "admin@company.org",
+        "role": "admin",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd09"
+        },
+        "username": "lmillin0",
+        "email": "ddrissell0@stanford.edu",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd0a"
+        },
+        "username": "dlarkings1",
+        "email": "hgilks1@thetimes.co.uk",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd0b"
+        },
+        "username": "cbillinge2",
+        "email": "enoorwood2@state.gov",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd0c"
+        },
+        "username": "astandring3",
+        "email": "ltailby3@i2i.jp",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd0d"
+        },
+        "username": "rgubbins4",
+        "email": "kpowlesland4@nydailynews.com",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd0e"
+        },
+        "username": "skingsmill5",
+        "email": "rgiacomazzo5@ted.com",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd0f"
+        },
+        "username": "aedlin6",
+        "email": "klangstrath6@nbcnews.com",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd10"
+        },
+        "username": "lrallin7",
+        "email": "rgiblin7@xrea.com",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd11"
+        },
+        "username": "kgillie8",
+        "email": "asoutham8@spiegel.de",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd12"
+        },
+        "username": "sarlet9",
+        "email": "ejancey9@pcworld.com",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd13"
+        },
+        "username": "ejessupa",
+        "email": "ggledhilla@ft.com",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd14"
+        },
+        "username": "rhatherillb",
+        "email": "ntregianb@g.co",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd15"
+        },
+        "username": "pbalaizotc",
+        "email": "fpenwellc@meetup.com",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd16"
+        },
+        "username": "garkwrightd",
+        "email": "mfargied@slate.com",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd17"
+        },
+        "username": "hjeffese",
+        "email": "smixworthye@canalblog.com",
+        "role": "customer",
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd18"
+        },
+        "username": "yblasikf",
+        "email": "dpiertonf@army.mil",
+        "role": "customer",
+        "__v": 0
+    }
+]

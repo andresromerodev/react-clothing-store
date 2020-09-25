@@ -1,0 +1,279 @@
+[
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd19"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1544955381-de702baa57fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+            "https://images.unsplash.com/photo-1544955380-68a72d66ad6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+        ],
+        "categories": [
+            "sweaters"
+        ],
+        "name": "Autumn Pink Sweater",
+        "price": 3999,
+        "featured": false,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd1a"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1542838686-d4856db9ef1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+        ],
+        "categories": [
+            "boots"
+        ],
+        "name": "Sophie – Dark Autumn Boots",
+        "price": 24999,
+        "featured": true,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd1b"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1543204561-e958f1dfd0a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+            "https://images.unsplash.com/photo-1543204638-6b453005484a?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+        ],
+        "categories": [
+            "pants"
+        ],
+        "name": "Cozy Brown Pants",
+        "price": 3999,
+        "featured": true,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd1c"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1520859665512-9851c25e2f1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+        ],
+        "categories": [
+            "tshirts"
+        ],
+        "name": "Dear Darlings Shirt",
+        "price": 3999,
+        "featured": false,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd1d"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1525811195752-b37798f34a75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80"
+        ],
+        "categories": [
+            "tshirts"
+        ],
+        "name": "Cali Shirt",
+        "price": 2999,
+        "featured": true,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd1e"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1524153087810-01ccea97db13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+        ],
+        "categories": [
+            "tshirts"
+        ],
+        "name": "Just Lovin‘ the Red",
+        "price": 2499,
+        "featured": false,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd1f"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1516313570236-85371711ee13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+        ],
+        "categories": [
+            "tshirts"
+        ],
+        "name": "Simple Stripes",
+        "price": 2499,
+        "featured": false,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd20"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1543204561-e958f1dfd0a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+            "https://images.unsplash.com/photo-1543204638-6b453005484a?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+        ],
+        "categories": [
+            "sweaters"
+        ],
+        "name": "Autumn White Sweater",
+        "price": 3999,
+        "featured": false,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd21"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1531299411897-f9adcfb1a333?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+        ],
+        "categories": [
+            "sweaters"
+        ],
+        "name": "Spring Blue Sweater",
+        "price": 4999,
+        "featured": false,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd22"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1542834759-b5dcaccbcde7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+        ],
+        "categories": [
+            "jackets"
+        ],
+        "name": "Bordeaux Jacket",
+        "price": 8999,
+        "featured": false,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd23"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1542838686-d4856db9ef1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+        ],
+        "categories": [
+            "jackets"
+        ],
+        "name": "Premium Soft Jacket",
+        "price": 14999,
+        "featured": false,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd24"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1516313570236-85371711ee13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+        ],
+        "categories": [
+            "pants"
+        ],
+        "name": "Premiums Jeans",
+        "price": 12499,
+        "featured": false,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd25"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1479492591199-eb2492814e73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        ],
+        "categories": [
+            "boots"
+        ],
+        "name": "Zippy – Light Autumn Boots",
+        "price": 14999,
+        "featured": false,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd26"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1520809445768-048b4dc23332?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+        ],
+        "categories": [
+            "boots"
+        ],
+        "name": "Lilly – Light Autumn Boots",
+        "price": 14999,
+        "featured": false,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd27"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1543204561-e958f1dfd0a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+            "https://images.unsplash.com/photo-1543204638-6b453005484a?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+        ],
+        "categories": [
+            "sneakers"
+        ],
+        "name": "Soft White Sneakers",
+        "price": 6999,
+        "featured": false,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd28"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1465479423260-c4afc24172c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        ],
+        "categories": [
+            "sneakers",
+            "sporty"
+        ],
+        "name": "White Running Shoes",
+        "price": 8999,
+        "featured": false,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd29"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1496579538151-212636d0b01c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+        ],
+        "categories": [
+            "sneakers",
+            "sporty"
+        ],
+        "name": "Pink&Blue",
+        "price": 9999,
+        "featured": false,
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "5d0c1a357a46812d6c03fd2a"
+        },
+        "images": [
+            "https://images.unsplash.com/photo-1434682881908-b43d0467b798?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80",
+            "https://images.unsplash.com/photo-1434719079929-f61498a4828e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80"
+        ],
+        "categories": [
+            "sporty"
+        ],
+        "name": "Black Sports Bra",
+        "price": 2499,
+        "featured": false,
+        "__v": 0
+    }
+]
